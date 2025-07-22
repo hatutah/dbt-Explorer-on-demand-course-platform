@@ -14,7 +14,7 @@ renamed as (
         id as customer_id,
 
         ---------- text
-        concat(first_name, ' ', last_name) as customer_name
+        name as customer_name
 
     from source
 
